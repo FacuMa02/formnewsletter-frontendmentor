@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 3vh;
-  /* margin-right: 1vh; */
 }
 
 .data h1 {
@@ -90,9 +89,10 @@ body {
 
 .inputNote {
   display: flex;
+  flex-wrap: nowrap;
 }
 
-.inputNote p {
+.inputNote .item {
   flex: 50%;
   font-family: Roboto-Bold;
   font-size: 12.5px;
